@@ -936,11 +936,7 @@ var to_text = function(pres) {
 	if(pres.docs.length > 0 && pres.docs[0].slideList.length > 0) return to_text_d(pres.docs);
 	else return to_text_s(pres.slides);
 };
-
-var utils = {
-	to_text: to_text
-};
 PPT.parse_pptcfb = process_ppt;
 PPT.readFile = readFile;
-PPT.utils = utils;
+PPT.to_text = to_text;
 })(typeof exports !== 'undefined' ? exports : PPT);
