@@ -1,5 +1,5 @@
 {
-	"name": "ppt",
+	"name": "ppt2text",
 	"version": "0.0.2",
 	"author": "sheetjs",
 	"description": "Pure JS PowerPoint 97-2003 (PPT) Parser",
@@ -17,7 +17,7 @@
 		"mocha":"",
 		"uglify-js":""
 	},
-	"repository": { "type":"git", "url":"git://github.com/SheetJS/js-ppt.git" },
+	"repository": { "type":"git", "url":"https://github.com/TheEmi/js-ppt.git" },
 	"scripts": {
 	},
 	"config": {
